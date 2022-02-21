@@ -9,15 +9,16 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
       h1 {
-    font-size: 100px;
+        font-weight: bold;
+        font-size: 36px;
+        color: #fce138;
+        margin: 0;
+        display: inline;
   }  
 /* apply styles to <header> */
 header {
-  padding-top: 10px;
-  padding-right: 15px;
-  padding-bottom: 20px;
-  padding-left: 25px;
-  background-color: #39a6b2;
+  padding: 30px 35px 30px 35px;
+  background-color: #39a6b2
 }
 
 header h1 {
@@ -27,6 +28,7 @@ header h1 {
   margin: 0;
 }
 header a {
+  text-decoration: none;
   color: #fce138;
 }
 header nav {
